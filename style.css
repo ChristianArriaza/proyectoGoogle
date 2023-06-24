@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #202124;
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    padding: 0 12px;
+    align-items: center;
+}
+header.barMenu {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.barMenu a:hover {
+    text-decoration: underline;
+}
+.barMenu a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.imgusuario{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    object-position: 20% 20%;
+}
+.googleApps{
+    width: 18px;    
+    height: 18px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 78vh;
+    gap: 15px;
+}
+.textBox{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100px;
+    border-color: gray;
+    display:flex;
+    align-items: center;
+    height: 40px;
+    width: 450px;
+    background-color: transparent;
+    padding: 15px 20px;
+
+}
+.textBox input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+ .buttons button{
+    border: none;
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+img{
+    height: 100px;
+}
+.logoGlass {
+    order: -1;
+    padding: 5px;
+    margin: 0;
+  }
+  .logoGlass img{
+    height: 25px;
+    width: 25px; 
+    justify-content: center;
+  }
+.logoCamera img{
+    height: 32px;
+    width: 32px;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    color: #bdc1c6 !important;
+    height: 90px;   
+}
+footer section {
+    padding: 0 30px; 
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+.info {
+    border-top: grey solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+footer section.info div{
+    display: flex;
+    gap: 12px;
+}
+footer section.info div a {
+    text-decoration: none;
+    color: #bdc1c6 !important;
+}
+footer section.info div a:hover{
+    text-decoration: underline;
+}
